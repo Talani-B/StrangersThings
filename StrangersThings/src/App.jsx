@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Routes, Route } from "react-router-dom"
-import Posts from "./pages/Posts"
 import Profile from "./pages/Profile"
+import Posts from "./pages/Posts"
 import Login from "./pages/Login"
 import Register from "./pages/Register"
 import NavBar from "./components/NavBar"
