@@ -3,7 +3,7 @@ import { useState } from 'react';
 export default  function Posts() {
     const [posts, setPosts]= useState([]);
     const [username, setUsername]= useState('')
-
+   const [text, setText]= useState('');
 
     
     return (
@@ -13,7 +13,9 @@ export default  function Posts() {
         <textarea 
        name="username" 
         cols="30" 
-        rows="10"></textarea>
+        rows="10"
+        value={text}
+        onChange={(e)=>setText(e.target.value) }></textarea>
 
      </form>
      <button>Add</button>
