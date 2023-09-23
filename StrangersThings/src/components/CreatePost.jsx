@@ -1,11 +1,11 @@
 import { useState } from "react"
 
 export default function CreatPost () {
-    const [title, setTitle]=useState('')
-       const [description, setDescription]=useState('')
-       const [price, setPrice]=useState('')
-       const [location, setLoction]=('')
-       const [willDeliver, setWillDeliver ]=useState()
+    const [title, setTitle] = useState('')
+       const [description, setDescription] = useState('')
+       const [price, setPrice] = useState('')
+       const [location, setLoction] = useState ('')
+       const [willDeliver, setWillDeliver] = useState(false)
     return (
       
        <form>

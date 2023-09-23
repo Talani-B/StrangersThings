@@ -4,8 +4,8 @@ export default function AuthForm({ buttonText, handleSubmit}) {
     const [username, setUsername]= useState('')
     const [password, setPassword]= useState('')
     return (
-        <form onSubmit={(e) => handleSubmit(e, username , password)}>
-        <label htmlFor="username">Create Username</label>
+        <form onSubmit={(e) => handleSubmit(e, username, password)}>
+        <label htmlFor="username">Username</label>
         <input
         type="text"
         id="username"

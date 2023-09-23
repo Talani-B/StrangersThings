@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
 
+
 export default function NavBar({ token }) {
     return (
         <nav>
             <ul>
                 <li>
-                    <Link to="/posts">Posts</Link>
+                    <Link to="/products">products</Link>
                 </li>
                 <li>
                     <Link to="/profile">Profile</Link>
